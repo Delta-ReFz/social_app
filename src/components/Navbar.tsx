@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import DesktopNavbar from './DesktopNavbar';
 
 function Navbar() {
   return (
@@ -11,6 +12,9 @@ function Navbar() {
             Sayiings
             </Link>
           </div>
+
+          <DesktopNavbar />
+          
         </div>
       </div>
     </nav>
